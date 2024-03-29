@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DashboardApp</string>
+    <!-- Navigation items -->
+    <string name="macro">Macroeconomic</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="trade">Trade</string>
+    <string name="chatgpt">ChatGPT</string>
 </resources>
