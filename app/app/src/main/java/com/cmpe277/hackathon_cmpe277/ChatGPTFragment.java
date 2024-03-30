@@ -1,3 +1,5 @@
+package com.cmpe277.hackathon_cmpe277;
+
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,8 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
-import com.cmpe277.hackathon_cmpe277.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -56,7 +56,7 @@ public class ChatGPTFragment extends Fragment {
     }
 
     private class PostDataTask extends AsyncTask<String, Void, String> {
-        private static final String AUTH_TOKEN = "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";
+        private static final String AUTH_TOKEN = "";
         @Override
         protected String doInBackground(String... params) {
             String result = "";

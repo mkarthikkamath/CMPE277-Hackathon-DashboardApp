@@ -15,5 +15,5 @@
         android:title="Trade" android:icon="@drawable/trade_vector"/>
 
     <item android:id="@+id/chatgpt"
-        android:title="chat gpt" android:icon="@drawable/icons_chatgpt"/>
+        android:title="ChatGPT" android:icon="@drawable/icons_chatgpt"/>
 </menu>
