@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">DashboardApp</string>
-    <!-- Navigation items -->
-    <string name="macro">Macroeconomic</string>
-    <string name="agriculture">Agriculture</string>
-    <string name="trade">Trade</string>
-    <string name="chatgpt">ChatGPT</string>
+    <string name="app_name">hackathon-cmpe277</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
