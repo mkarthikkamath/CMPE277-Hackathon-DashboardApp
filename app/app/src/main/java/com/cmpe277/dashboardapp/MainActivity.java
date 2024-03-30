@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,10 +47,14 @@ public class MainActivity extends AppCompatActivity {
                     if (selectedFragment != null) {
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                                 selectedFragment).commit();
+
+                        // Hide welcome message
+                        findViewById(R.id.welcome_message).setVisibility(View.GONE);
                     }
 
                     return true; // Return true to display the selected item as the selected menu item
                 }
             };
+
 
 }

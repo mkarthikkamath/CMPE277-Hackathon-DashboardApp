@@ -40,4 +40,10 @@
         android:layout_height="wrap_content"
         android:text="Fertilizer Production"
         android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show" />
 </LinearLayout>
