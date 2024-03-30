@@ -27,7 +27,7 @@
         android:label="Trade"
         tools:layout="@layout/fragment_trade" />
     <fragment
-        android:id="@+id/chatGPTFragment"
+        android:id="@+id/chatgpt"
         android:name="com.cmpe277.hackathon_cmpe277.ChatGPTFragment"
         android:label="ChatGPT"
         tools:layout="@layout/chat_gpt_fragment"/>
